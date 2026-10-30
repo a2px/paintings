@@ -4,11 +4,11 @@ window.PORTFOLIO = {
   artist: "Ashley Xie",
   role: "Painter",
   eyebrow: "Ashley Xie",
-  statement: "Figures and portraits painted from life, about the way a person takes up space.",
+  statement: "Ashley Xie is a Dallas-based artist studying how figures reflect the impermanence of time and the freshness of a moment.",
   latest: "Oak Cliff Art Walk, Oct 2026",
   // Leave empty to hide. Fill in to show contact buttons.
   email: "",
-  instagram: "",
+  instagram: "https://www.instagram.com/ashleyartifex/",
 
 
   // Ashley's paintings, with titles, sizes and years from Ashley.
@@ -25,7 +25,7 @@ window.PORTFOLIO = {
 
   // Drawn from Ashley's own statement for Forma. Replace with a fuller bio when ready.
   about: [
-    "I paint figures and portraits, from life and from images. I developed my craft at Dartmouth College, where I painted countless figures.",
+    "I paint figures and portraits, from life and from images. I developed my craft at Dartmouth College, where I majored in Design and minored in Studio Art.",
     "The more people I paint, the more details I notice: the curve of the chin, the highlights in the eyes, the green of the skin. I aim to capture each subject in a single fleeting moment.",
   ],
   education: [],
