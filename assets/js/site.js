@@ -30,7 +30,7 @@
   }
 
   // ---- Selected work grid ----
-  const metaFor = (w) => [w.medium, w.year].filter(Boolean).join(", ");
+  const metaFor = (w) => [w.medium, w.size, w.year].filter(Boolean).join(", ");
   const works = $("#works");
   P.works.forEach((w, i) => {
     const li = document.createElement("li");
