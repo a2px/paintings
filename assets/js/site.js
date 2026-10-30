@@ -76,6 +76,8 @@
     $("#viewerTitle").textContent = w.title;
     const meta = [w.year, w.medium, w.size].filter(Boolean).join(". ");
     $("#viewerMeta").textContent = meta ? `${meta}.` : "";
+    $("#viewerDesc").textContent = w.description || "";
+    $("#viewerDesc").hidden = !w.description;
   };
   works.addEventListener("click", (e) => {
     const b = e.target.closest(".work__btn");
