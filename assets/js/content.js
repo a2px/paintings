@@ -53,7 +53,7 @@ window.PORTFOLIO = {
     {
       name: "Forma -ae f.",
       kind: "Senior art exhibition, Dartmouth College",
-      description: "Figure paintings and portraits made from life during the final term at Dartmouth.",
+      description: "Figure paintings and portraits made from my years of study at Dartmouth.",
       statement: [
         "While developing my craft during my time at Dartmouth, I painted countless figures, both from life and from images. The human form comes with a lot of overpowering connotations revolving around beauty, sexuality, and physical and mental ability. Many students including myself find our bodies as vehicles for insecurity. But this Latin noun implies that there is inherent beauty in form. Our mere existence and the way one takes up space becomes compelling.",
         "The more individuals that I painted, the more details I noticed- the curve of the chin, the highlights in the eyes, the green of the skin. As I refined my style, the process became an intimate one- one where I faced myself by studying the bodies of others. My mindset this term has been that I was always almost about to reach the level I desired. In the last few weeks of this term, I started recruiting models and painting as many figures as possible.",
