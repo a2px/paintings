@@ -38,7 +38,6 @@ strong, b, th { font-weight: 500; }
 
 /* Hero: statement */
 .hero { padding: clamp(40px, 6vw, 96px) 0 clamp(8px, 2vw, 24px); }
-.eyebrow { font: 500 15px/1 var(--display); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 14px; }
 .hero__statement { font-weight: 200; font-size: clamp(28px, 3.3vw, 64px); line-height: 1.08; letter-spacing: -0.02em; max-width: 24ch; }
 
 /* Sections */
