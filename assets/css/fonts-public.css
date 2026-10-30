@@ -1,8 +1,0 @@
-/* Free fonts for the public site (SIL Open Font License, see assets/fonts-public/OFL-*.txt):
-   Unbounded stands in for PP Valve, Newsreader for PP Pangaia. */
-@font-face { font-family: "Unbounded"; src: url("../fonts-public/Unbounded.woff2") format("woff2"); font-weight: 200 900; font-display: swap; }
-@font-face { font-family: "Newsreader"; src: url("../fonts-public/Newsreader.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
-:root {
-  --display: "Unbounded", "Arial Black", sans-serif;
-  --body: "Newsreader", Georgia, serif;
-}

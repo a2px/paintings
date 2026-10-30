@@ -1,0 +1,13 @@
+/* PP Valve + PP Pangaia (Pangram Pangram). Free for personal use, which Pangram's FAQ says
+   includes personal portfolios on the web (copy saved in .source/pangram-faq.html). */
+@font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Extrabold.woff2") format("woff2"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Extralight.woff2") format("woff2"); font-weight: 200; font-display: swap; }
+@font-face { font-family: "Pangaia"; src: url("../fonts-web/PPPangaia-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Pangaia"; src: url("../fonts-web/PPPangaia-MediumItalic.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Pangaia"; src: url("../fonts-web/PPPangaia-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Pangaia"; src: url("../fonts-web/PPPangaia-Ultralight.woff2") format("woff2"); font-weight: 200; font-display: swap; }
+:root {
+  --display: "Valve", "Arial Black", sans-serif;
+  --body: "Pangaia", Georgia, serif;
+}

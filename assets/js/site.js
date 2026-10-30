@@ -22,11 +22,9 @@
 
   // Contact buttons appear only once an email or Instagram is filled in.
   const contact = [];
-  if (P.email) contact.push(`<a class="btn btn--accent btn--big" href="mailto:${P.email}">Email ${P.email}</a>`);
-  if (P.instagram) contact.push(`<a class="btn btn--big" href="${P.instagram}" target="_blank" rel="noopener">Instagram${newTab}</a>`);
-  $("#contactLinks").innerHTML = contact.length
-    ? `<div class="contact__links">${contact.join("")}</div>`
-    : '<p class="contact__note">Contact details are coming soon.</p>';
+  if (P.email) contact.push(`<p><a href="mailto:${P.email}">${P.email}</a></p>`);
+  if (P.instagram) contact.push(`<p><a href="${P.instagram}" target="_blank" rel="noopener">Instagram${newTab}</a></p>`);
+  $("#contactLinks").innerHTML = contact.length ? contact.join("") : "<p>Contact details are coming soon.</p>";
 
   // ---- Selected work grid ----
   // Placeholder paintings say so in the caption and link to the museum record.
