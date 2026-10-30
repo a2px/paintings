@@ -4,7 +4,6 @@ window.PORTFOLIO = {
   artist: "Ashley Xie",
   role: "Painter",
   statement: "Ashley Xie is a Dallas-based artist studying how figures reflect the impermanence of time and the freshness of a moment.",
-  latest: "Oak Cliff Art Walk, Oct 2026",
   // Leave empty to hide. Fill in to show contact buttons.
   email: "",
   instagram: "https://www.instagram.com/ashleyartifex/",

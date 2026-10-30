@@ -33,8 +33,6 @@ strong, b, th { font-weight: 500; }
 .mainnav ul { display: flex; gap: clamp(14px, 2vw, 28px); margin: 0; padding: 0; list-style: none; }
 .mainnav a { display: inline-flex; align-items: center; min-height: 44px; font: 500 19px/1 var(--display); text-decoration: none; }
 .mainnav a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.mainnav__meta { font-size: 16px; white-space: nowrap; }
-.mainnav__meta strong { font-family: var(--display); font-weight: 500; }
 
 /* Hero: statement */
 .hero { padding: clamp(40px, 6vw, 96px) 0 clamp(8px, 2vw, 24px); }
@@ -103,7 +101,6 @@ strong, b, th { font-weight: 500; }
 .viewer__close:hover { opacity: 0.6; }
 
 @media (max-width: 900px) {
-  .mainnav__meta { display: none; }
   .works { grid-template-columns: repeat(2, 1fr); }
   .work:nth-child(n) { transform: none; margin-top: 0; }
   .work:nth-child(2n) { margin-top: 40px; }
@@ -152,4 +149,3 @@ strong, b, th { font-weight: 500; }
 .ex__statement summary::before { content: ""; border-left: 0.6em solid var(--ink); border-top: 0.36em solid transparent; border-bottom: 0.36em solid transparent; transition: transform .2s; }
 .ex__statement[open] summary::before { transform: rotate(90deg); }
 .ex__statement p { margin-top: 12px; }
-.mainnav__meta a { text-underline-offset: 3px; }

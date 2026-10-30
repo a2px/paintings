@@ -6,7 +6,7 @@
 
   // ---- Fill text from content.js ----
   const binds = {
-    statement: P.statement, latest: P.latest,
+    statement: P.statement,
   };
   document.querySelectorAll("[data-bind]").forEach((el) => {
     if (el.dataset.bind in binds) el.textContent = binds[el.dataset.bind];
