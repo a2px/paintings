@@ -1,4 +1,4 @@
-// Everything a visitor reads lives here. To add a real painting: put the photo in
+// Everything a visitor reads lives here. To add a painting: put the photo in
 // assets/img/ and add an entry to `works`.
 window.PORTFOLIO = {
   artist: "Ashley Xie",
@@ -11,28 +11,19 @@ window.PORTFOLIO = {
   email: "",
   instagram: "",
 
-  selectedIntro: "Placeholder images for now. Ashley's own paintings will go here.",
+  selectedIntro: "Figure paintings and portraits, mostly painted from life.",
 
-  // PLACEHOLDERS until Ashley's own paintings are added: public-domain paintings from the
-  // Art Institute of Chicago. `credit` and `source` point back to the original museum record.
-  // For a real painting, drop `credit`/`source` and add `year` and `size`.
+  // Ashley's paintings. Titles are descriptive working titles until Ashley names them;
+  // add `year`, `medium` and `size` to show them in captions and the viewer.
   works: [
-    { img: "103139.jpg", w: 6001, h: 4248, title: "Waterloo Bridge, Gray Weather", medium: "Oil on canvas", credit: "Claude Monet, 1900", source: "https://www.artic.edu/artworks/103139" },
-    { img: "16564.jpg", w: 5253, h: 5097, title: "Branch of the Seine near Giverny (Mist)", medium: "Oil on canvas", credit: "Claude Monet, 1897", source: "https://www.artic.edu/artworks/16564" },
-    { img: "878.jpg", w: 1587, h: 2250, title: "Wounded Eurydice", medium: "Oil on canvas", credit: "Jean Baptiste Camille Corot, 1868-70", source: "https://www.artic.edu/artworks/878" },
-    { img: "14620.jpg", w: 6356, h: 5090, title: "Cliff Walk at Pourville", medium: "Oil on canvas", credit: "Claude Monet, 1882", source: "https://www.artic.edu/artworks/14620" },
-    { img: "109926.jpg", w: 4000, h: 2564, title: "Window Overlooking the Woods", medium: "Oil on canvas", credit: "Edouard Vuillard, 1899", source: "https://www.artic.edu/artworks/109926" },
-    { img: "87088.jpg", w: 5448, h: 4845, title: "Water Lily Pond", medium: "Oil on canvas", credit: "Claude Monet, 1900", source: "https://www.artic.edu/artworks/87088" },
-    { img: "185185.jpg", w: 3000, h: 2183, title: "Coming Squall", medium: "Oil on panel", credit: "Thomas Doughty, 1835", source: "https://www.artic.edu/artworks/185185" },
-    { img: "16571.jpg", w: 6786, h: 5092, title: "Arrival of the Normandy Train", medium: "Oil on canvas", credit: "Claude Monet, 1877", source: "https://www.artic.edu/artworks/16571" },
-  ],
-
-  // Extra paintings that only appear in the moving strip at the top.
-  stripExtras: [
-    { img: "14598.jpg", w: 6793, h: 5021, title: "The Beach at Sainte-Adresse" },
-    { img: "81539.jpg", w: 6116, h: 4943, title: "On the Bank of the Seine" },
-    { img: "874.jpg", w: 2829, h: 2250, title: "Landscape" },
-    { img: "879.jpg", w: 2905, h: 2250, title: "The Lock" },
+    { img: "green-portrait.jpg", w: 1253, h: 1600, title: "Portrait in Green", alt: "Head-and-shoulders portrait of a young woman painted in greens and yellows, looking straight out" },
+    { img: "yellow-green-portrait.jpg", w: 1178, h: 1430, title: "Portrait in Yellow-Green", alt: "Portrait of a young woman with dark hair in yellow-green tones, surrounded by loose circular brushstrokes" },
+    { img: "three-figures.jpg", w: 1289, h: 1600, title: "Three Figures", alt: "Three standing nude figures in blues and greens against a bright yellow ground" },
+    { img: "seated-man.jpg", w: 1335, h: 1600, title: "Seated Man", alt: "Shirtless man with glasses seated with his arm resting on his knee, against a purple-gray background" },
+    { img: "seated-woman-easel.jpg", w: 866, h: 1600, title: "Seated Model with Easel", alt: "Woman seated on a tall stool beside an easel, a dark jacket slipping off one shoulder" },
+    { img: "man-with-bowl.jpg", w: 1271, h: 1600, title: "Man with Bowl", alt: "Young man in a pink shirt seated and holding a bowl in his lap, in warm pinks and oranges" },
+    { img: "reclining-figure.jpg", w: 1314, h: 1062, title: "Reclining Figure", alt: "Nude figure seen from behind, reclining on purple-and-white striped fabric against a pale blue wall" },
+    { img: "fencer.jpg", w: 1562, h: 1323, title: "Fencer", alt: "Fencer in white lying on their back holding a mask and foil, on a field of black and white brushstrokes" },
   ],
 
   // Drawn from Ashley's own statement for Forma. Replace with a fuller bio when ready.

@@ -34,7 +34,7 @@
     const li = document.createElement("li");
     li.className = "work reveal";
     li.innerHTML = `<button class="work__btn" type="button" data-i="${i}">
-      <div class="work__frame"><img src="assets/img/${w.img}" width="${w.w}" height="${w.h}" alt="${w.title}, ${w.medium.toLowerCase()}" loading="lazy"></div>
+      <div class="work__frame"><img src="assets/img/${w.img}" width="${w.w}" height="${w.h}" alt="${w.alt || w.title}" loading="lazy"></div>
       <span class="work__cap"><span class="work__num">${pad2(i + 1)}</span><span class="work__title">${w.title}</span><span class="work__meta">${metaFor(w)}</span></span>
     </button>`;
     works.appendChild(li);
@@ -75,10 +75,11 @@
     current = (i + P.works.length) % P.works.length;
     const w = P.works[current];
     $("#viewerImg").src = `assets/img/${w.img}`;
-    $("#viewerImg").alt = `${w.title}, ${w.medium.toLowerCase()}`;
+    $("#viewerImg").alt = w.alt || w.title;
     $("#viewerNum").textContent = `${pad2(current + 1)} / ${pad2(P.works.length)}`;
     $("#viewerTitle").textContent = w.title;
-    $("#viewerMeta").textContent = w.credit ? `${w.medium}.` : [w.year, w.medium, w.size].filter(Boolean).join(". ") + ".";
+    const meta = [w.year, w.medium, w.size].filter(Boolean).join(". ");
+    $("#viewerMeta").textContent = meta ? `${meta}.` : "";
     $("#viewerCredit").innerHTML = w.credit
       ? `Placeholder image, not Ashley's work: ${w.credit}. <a href="${w.source}" target="_blank" rel="noopener">See the original record${newTab}</a>`
       : "";
@@ -105,7 +106,7 @@
   const track = $("#ribbon");
   const ribbon = $(".ribbon");
   const hero = $(".hero");
-  const pool = [...P.works.slice(0, 6), ...P.stripExtras, ...P.works.slice(6)];
+  const pool = [...P.works, ...(P.stripExtras || [])];
   let cards = [];
   let loopLen = 0;
 
