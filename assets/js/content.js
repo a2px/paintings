@@ -2,9 +2,8 @@
 // assets/img/ and add an entry to `works`.
 window.PORTFOLIO = {
   artist: "Ashley Xie",
-  wordmark: ["Ashley", "Xie"],
   role: "Painter",
-  eyebrow: "Painter, Dartmouth College",
+  eyebrow: "Ashley Xie",
   statement: "Figures and portraits painted from life, about the way a person takes up space.",
   latest: "Oak Cliff Art Walk, Oct 2026",
   // Leave empty to hide. Fill in to show contact buttons.
@@ -19,7 +18,7 @@ window.PORTFOLIO = {
     { img: "yellow-green-portrait.jpg", w: 1178, h: 1430, title: "Soon", medium: "Oil on canvas", size: "18\" x 24\"", year: "2023", alt: "Portrait of a young woman with dark hair in yellow-green tones, surrounded by loose circular brushstrokes" },
     { img: "three-figures.jpg", w: 1289, h: 1600, title: "Dancing", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Three standing nude figures in blues and greens against a bright yellow ground" },
     { img: "seated-man.jpg", w: 1335, h: 1600, title: "Ben", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Shirtless man with glasses seated with his arm resting on his knee, against a purple-gray background" },
-    { img: "seated-woman-easel.jpg", w: 866, h: 1600, title: "Peer Painting", medium: "Oil on masonite", size: "12\" x 20\"", alt: "Woman seated on a tall stool beside an easel, a dark jacket slipping off one shoulder" },
+    { img: "seated-woman-easel.jpg", w: 866, h: 1600, title: "Peer Painting", medium: "Oil on masonite", size: "12\" x 20\"", year: "2024", alt: "Woman seated on a tall stool beside an easel, a dark jacket slipping off one shoulder" },
     { img: "man-with-bowl.jpg", w: 1271, h: 1600, title: "Apurva", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Young man in a pink shirt seated and holding a bowl in his lap, in warm pinks and oranges" },
     { img: "reclining-figure.jpg", w: 1314, h: 1062, title: "Francis", medium: "Oil on canvas", size: "18\" x 24\"", year: "2023", alt: "Nude figure seen from behind, reclining on purple-and-white striped fabric against a pale blue wall" },
     { img: "fencer.jpg", w: 1562, h: 1323, title: "Concussion", medium: "Oil on canvas", size: "18\" x 24\"", year: "2023", alt: "Fencer in white lying on their back holding a mask and foil, on a field of black and white brushstrokes" },
