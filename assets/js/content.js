@@ -14,16 +14,16 @@ window.PORTFOLIO = {
   selectedIntro: "Figure paintings and portraits, mostly painted from life.",
 
   // Ashley's paintings. Titles are descriptive working titles until Ashley names them;
-  // add `year`, `medium` and `size` to show them in captions and the viewer.
+  // add `year` and `size` to show them in captions and the viewer.
   works: [
-    { img: "green-portrait.jpg", w: 1253, h: 1600, title: "Portrait in Green", alt: "Head-and-shoulders portrait of a young woman painted in greens and yellows, looking straight out" },
-    { img: "yellow-green-portrait.jpg", w: 1178, h: 1430, title: "Portrait in Yellow-Green", alt: "Portrait of a young woman with dark hair in yellow-green tones, surrounded by loose circular brushstrokes" },
-    { img: "three-figures.jpg", w: 1289, h: 1600, title: "Three Figures", alt: "Three standing nude figures in blues and greens against a bright yellow ground" },
-    { img: "seated-man.jpg", w: 1335, h: 1600, title: "Seated Man", alt: "Shirtless man with glasses seated with his arm resting on his knee, against a purple-gray background" },
-    { img: "seated-woman-easel.jpg", w: 866, h: 1600, title: "Seated Model with Easel", alt: "Woman seated on a tall stool beside an easel, a dark jacket slipping off one shoulder" },
-    { img: "man-with-bowl.jpg", w: 1271, h: 1600, title: "Man with Bowl", alt: "Young man in a pink shirt seated and holding a bowl in his lap, in warm pinks and oranges" },
-    { img: "reclining-figure.jpg", w: 1314, h: 1062, title: "Reclining Figure", alt: "Nude figure seen from behind, reclining on purple-and-white striped fabric against a pale blue wall" },
-    { img: "fencer.jpg", w: 1562, h: 1323, title: "Fencer", alt: "Fencer in white lying on their back holding a mask and foil, on a field of black and white brushstrokes" },
+    { img: "green-portrait.jpg", w: 1253, h: 1600, title: "Portrait in Green", medium: "Oil on masonite", alt: "Head-and-shoulders portrait of a young woman painted in greens and yellows, looking straight out" },
+    { img: "yellow-green-portrait.jpg", w: 1178, h: 1430, title: "Portrait in Yellow-Green", medium: "Oil on canvas", alt: "Portrait of a young woman with dark hair in yellow-green tones, surrounded by loose circular brushstrokes" },
+    { img: "three-figures.jpg", w: 1289, h: 1600, title: "Three Figures", medium: "Oil on canvas", alt: "Three standing nude figures in blues and greens against a bright yellow ground" },
+    { img: "seated-man.jpg", w: 1335, h: 1600, title: "Seated Man", medium: "Oil on canvas", alt: "Shirtless man with glasses seated with his arm resting on his knee, against a purple-gray background" },
+    { img: "seated-woman-easel.jpg", w: 866, h: 1600, title: "Seated Model with Easel", medium: "Oil on masonite", alt: "Woman seated on a tall stool beside an easel, a dark jacket slipping off one shoulder" },
+    { img: "man-with-bowl.jpg", w: 1271, h: 1600, title: "Man with Bowl", medium: "Oil on canvas", alt: "Young man in a pink shirt seated and holding a bowl in his lap, in warm pinks and oranges" },
+    { img: "reclining-figure.jpg", w: 1314, h: 1062, title: "Reclining Figure", medium: "Oil on canvas", alt: "Nude figure seen from behind, reclining on purple-and-white striped fabric against a pale blue wall" },
+    { img: "fencer.jpg", w: 1562, h: 1323, title: "Fencer", medium: "Oil on canvas", alt: "Fencer in white lying on their back holding a mask and foil, on a field of black and white brushstrokes" },
   ],
 
   // Drawn from Ashley's own statement for Forma. Replace with a fuller bio when ready.

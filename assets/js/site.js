@@ -20,15 +20,17 @@
   document.title = `${P.artist}, ${P.role}`;
   const newTab = '<span class="visually-hidden"> (opens in a new tab)</span>';
 
-  // Contact buttons appear only once an email or Instagram is filled in.
+  // The footer's contact column appears only once an email or Instagram is filled in.
   const contact = [];
   if (P.email) contact.push(`<p><a href="mailto:${P.email}">${P.email}</a></p>`);
   if (P.instagram) contact.push(`<p><a href="${P.instagram}" target="_blank" rel="noopener">Instagram${newTab}</a></p>`);
-  $("#contactLinks").innerHTML = contact.length ? contact.join("") : "<p>Contact details are coming soon.</p>";
+  if (contact.length) {
+    $("#contactLinks").innerHTML = contact.join("");
+    $("#contactBlock").hidden = false;
+  }
 
   // ---- Selected work grid ----
-  // Placeholder paintings say so in the caption and link to the museum record.
-  const metaFor = (w) => (w.credit ? `Placeholder: ${w.credit}` : [w.medium, w.year].filter(Boolean).join(", "));
+  const metaFor = (w) => [w.medium, w.year].filter(Boolean).join(", ");
   const works = $("#works");
   P.works.forEach((w, i) => {
     const li = document.createElement("li");
@@ -80,9 +82,6 @@
     $("#viewerTitle").textContent = w.title;
     const meta = [w.year, w.medium, w.size].filter(Boolean).join(". ");
     $("#viewerMeta").textContent = meta ? `${meta}.` : "";
-    $("#viewerCredit").innerHTML = w.credit
-      ? `Placeholder image, not Ashley's work: ${w.credit}. <a href="${w.source}" target="_blank" rel="noopener">See the original record${newTab}</a>`
-      : "";
   };
   works.addEventListener("click", (e) => {
     const b = e.target.closest(".work__btn");
