@@ -21,6 +21,8 @@ window.PORTFOLIO = {
     { img: "man-with-bowl.jpg", w: 1271, h: 1600, title: "Apurva", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Young man in a pink shirt seated and holding a bowl in his lap, in warm pinks and oranges" },
     { img: "reclining-figure.jpg", w: 1314, h: 1062, title: "Francis", medium: "Oil on canvas", size: "18\" x 24\"", year: "2023", alt: "Nude figure seen from behind, reclining on purple-and-white striped fabric against a pale blue wall" },
     { img: "fencer.jpg", w: 1562, h: 1323, title: "Concussion", medium: "Oil on canvas", size: "18\" x 24\"", year: "2023", alt: "Fencer in white lying on their back holding a mask and foil, on a field of black and white brushstrokes" },
+    { img: "evan.jpg", w: 1011, h: 1280, title: "Evan", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Head-and-shoulders portrait with tousled brown hair and warm pink skin tones, against a pale blue-gray background" },
+    { img: "jennifer.jpg", w: 996, h: 1280, title: "Jennifer", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Head-and-shoulders portrait in greens, with glasses and hair in a bun, against an ochre background" },
   ],
 
   // Drawn from Ashley's own statement for Forma. Replace with a fuller bio when ready.
