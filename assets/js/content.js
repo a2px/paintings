@@ -10,7 +10,6 @@ window.PORTFOLIO = {
   email: "",
   instagram: "",
 
-  selectedIntro: "Figure paintings and portraits, mostly painted from life.",
 
   // Ashley's paintings, with titles, sizes and years from Ashley.
   works: [
