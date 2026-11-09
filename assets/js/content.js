@@ -22,6 +22,7 @@ window.PORTFOLIO = {
     { img: "seated-woman-easel.jpg", w: 866, h: 1600, title: "Peer Painting", medium: "Oil on masonite", size: "12\" x 20\"", year: "2024", alt: "Woman seated on a tall stool beside an easel, a dark jacket slipping off one shoulder" },
     { img: "evan.jpg", w: 1011, h: 1280, title: "Evan", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Head-and-shoulders portrait with tousled brown hair and warm pink skin tones, against a pale blue-gray background" },
     { img: "jennifer.jpg", w: 996, h: 1280, title: "Jennifer", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Head-and-shoulders portrait in greens, with glasses and hair in a bun, against an ochre background" },
+    { img: "untitled-2023.jpg", w: 1279, h: 1523, title: "Untitled", medium: "Oil on canvas", size: "20\" x 24\"", year: "2023", alt: "Reclining nude figure seen from above, one knee raised and face turned into green pillows, on pink and teal fabric" },
   ],
 
   // Drawn from Ashley's own statement for Forma. Replace with a fuller bio when ready.
