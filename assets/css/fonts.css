@@ -1,10 +1,12 @@
 /* Headings: PP Valve (Pangram Pangram; free personal-use licence, which Pangram's FAQ says covers
    personal portfolios on the web -- copy in .source/pangram-faq.html).
+   Headings wait briefly for Valve (font-display: block, preloaded in index.html) instead of
+   flashing a stand-in first; the stand-in is a regular-weight sans, never Arial Black.
    Body: TikTok Sans (Google Fonts, SIL Open Font License, see fonts-web/OFL-TikTokSans.txt). */
-@font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Medium.woff2") format("woff2"); font-weight: 500; font-display: swap; }
-@font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Extralight.woff2") format("woff2"); font-weight: 200; font-display: swap; }
+@font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Medium.woff2") format("woff2"); font-weight: 500; font-display: block; }
+@font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Extralight.woff2") format("woff2"); font-weight: 200; font-display: block; }
 @font-face { font-family: "TikTok Sans"; src: url("../fonts-web/TikTokSans.woff2") format("woff2"); font-weight: 300 900; font-display: swap; }
 :root {
-  --display: "Valve", "Arial Black", sans-serif;
+  --display: "Valve", "Helvetica Neue", Arial, sans-serif;
   --body: "TikTok Sans", system-ui, sans-serif;
 }
