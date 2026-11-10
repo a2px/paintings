@@ -34,6 +34,12 @@ window.PORTFOLIO = {
 
   exhibitions: [
     {
+      name: "Great Value Art Show",
+      kind: "Curated by Darryl Ratcliff and Charlotte Goudeau. Odin Josephine, Southside on Lamar #107, Dallas, TX",
+      description: "Held during Cedars Open Studios on November 21, 2026, this exhibition celebrates affordable, high-quality artwork and aims to make collecting more accessible to everyone.",
+      year: "2026",
+    },
+    {
       name: "Oak Cliff Art Walk",
       kind: "Group exhibition, Volume 6. East Dock, Dallas, TX",
       description: "A free community exhibition of local artists, held in East Dock, a 1915 warehouse in Oak Cliff, October 23-24, 2026.",
