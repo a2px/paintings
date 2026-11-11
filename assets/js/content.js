@@ -21,6 +21,7 @@ window.PORTFOLIO = {
     { img: "man-with-bowl.jpg", w: 1271, h: 1600, title: "Apurva", medium: "Oil on canvas", size: "18\" x 24\"", year: "2024", alt: "Young man in a pink shirt seated and holding a bowl in his lap, in warm pinks and oranges" },
     { img: "seated-woman-easel.jpg", w: 866, h: 1600, title: "Peer Painting", medium: "Oil on masonite", size: "12\" x 20\"", year: "2024", alt: "Woman seated on a tall stool beside an easel, a dark jacket slipping off one shoulder" },
     { img: "untitled-2023.jpg", w: 1279, h: 1523, title: "Untitled", medium: "Oil on canvas", size: "20\" x 24\"", year: "2023", alt: "Reclining nude figure seen from above, one knee raised and face turned into green pillows, on pink and teal fabric" },
+    { img: "untitled-portrait.jpg", w: 1267, h: 1600, title: "Untitled", medium: "Oil on canvas", size: "16\" x 20\"", alt: "Head-and-shoulders portrait of a young woman with long dark curly hair and bare shoulders, in warm pinks against a gray-blue background" },
   ],
 
   // Archived paintings: kept here but not shown on the site. Move an entry back
