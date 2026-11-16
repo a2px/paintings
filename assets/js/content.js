@@ -42,7 +42,7 @@ window.PORTFOLIO = {
     {
       name: "Great Value Art Show",
       kind: "Curated by Darryl Ratcliff and Charlotte Goudeau. Odin Josephine, Southside on Lamar #107, Dallas, TX",
-      description: "Held during Cedars Open Studios on November 21, 2026, this exhibition celebrates affordable, high-quality artwork and aims to make collecting more accessible to everyone.",
+      description: "On view November 21-December 12, 2026, opening during Cedars Open Studios, this exhibition celebrates affordable, high-quality artwork and aims to make collecting more accessible to everyone.",
       year: "2026",
     },
     {
