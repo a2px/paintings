@@ -42,6 +42,7 @@ strong, b, th { font-weight: 500; }
 /* Hero: statement */
 .hero { padding: clamp(40px, 6vw, 96px) 0 clamp(8px, 2vw, 24px); }
 .hero__statement { font-weight: 200; font-size: clamp(28px, 3.3vw, 64px); line-height: 1.08; letter-spacing: -0.02em; max-width: 24ch; }
+@media (min-width: 901px) { .hero__statement { max-width: 75%; } }
 
 /* Sections */
 .section { padding: clamp(56px, 7vw, 110px) 0; }
