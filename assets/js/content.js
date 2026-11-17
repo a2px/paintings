@@ -37,6 +37,8 @@ window.PORTFOLIO = {
     "Ancient Roman stoicism preaches that one cannot control what happens to you, only your own reaction. In a single fleeting moment, there is so much activity happening that to capture it is almost a fruitless task: Blood pushing against your skin, humidity in the air, or the movement of soft fuzz on your skin. I want to paint it all, but the moment passes before I can control it. I can only do my best to capture this activity in my own lens, painting a greenish shadow under a chin here or a blue tint under an eye there. Even then, memory is faulty, and all I can present to the viewer is my impression of that moment.",
     "Roman Emperor Marcus Aurelius famously said (roughly translated) that “The present is all we have to live in. Or to lose.” Each attempt to capture an ephemeral condition of the subject further obscures my sight of the present. It is in this contradiction that I build my work.",
   ],
+  // Shown beside the About text.
+  aboutPhoto: { img: "about-photo.jpg", w: 1280, h: 960, alt: "Ashley Xie in glasses and a dark green jacket, seated on a wooden stool beside an orange armchair in a lived-in room" },
   education: [],
 
   exhibitions: [

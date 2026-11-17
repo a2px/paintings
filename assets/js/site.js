@@ -32,6 +32,10 @@
 
   // ---- About + exhibitions ----
   $("#aboutText").innerHTML = P.about.map((p) => `<p>${p}</p>`).join("");
+  if (P.aboutPhoto) {
+    const ph = $("#aboutPhoto");
+    Object.assign(ph, { src: `assets/img/${P.aboutPhoto.img}`, width: P.aboutPhoto.w, height: P.aboutPhoto.h, alt: P.aboutPhoto.alt, hidden: false });
+  }
   if (P.education.length) {
     $("#education").innerHTML = P.education.map((e) => `<div><dt>${e.label}</dt><dd>${e.detail}</dd><dd>${e.year}</dd></div>`).join("");
   } else {
