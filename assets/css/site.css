@@ -147,7 +147,7 @@ strong, b, th { font-weight: 500; }
 
 /* Exhibition extras: venue link and the expandable artist statement */
 .extable td p + p, .ex__link { margin-top: 10px; }
-.ex__link a { display: inline-block; min-height: 24px; text-underline-offset: 3px; }
+.ex__link a { display: inline-block; min-height: 24px; text-underline-offset: 3px; color: #0b57d0; }
 .ex__statement { margin-top: 14px; max-width: 42em; }
 .ex__statement summary { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font: 500 var(--t-ui)/1 var(--display); cursor: pointer; list-style: none; }
 .ex__statement summary::-webkit-details-marker { display: none; }
