@@ -6,6 +6,8 @@
 @font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Medium.woff2") format("woff2"); font-weight: 500; font-display: block; }
 @font-face { font-family: "Valve"; src: url("../fonts-web/PPValve-Extralight.woff2") format("woff2"); font-weight: 200; font-display: block; }
 @font-face { font-family: "TikTok Sans"; src: url("../fonts-web/TikTokSans.woff2") format("woff2"); font-weight: 300 900; font-display: swap; }
+/* TikTok Sans's own slant (slnt -6), weight 500 only, for the italic exhibition details. */
+@font-face { font-family: "TikTok Sans"; src: url("../fonts-web/TikTokSans-Slanted.woff2") format("woff2"); font-weight: 500; font-style: italic; font-display: swap; }
 :root {
   --display: "Valve", "Helvetica Neue", Arial, sans-serif;
   --body: "TikTok Sans", system-ui, sans-serif;
