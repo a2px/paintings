@@ -63,7 +63,7 @@ strong, b, th { font-weight: 500; }
 .work__btn:hover .work__frame img { transform: scale(1.04); }
 .work__cap { display: flex; flex-direction: column; gap: 2px; margin-top: 10px; }
 .work__num { font: 500 var(--t-tag)/1 var(--display); color: var(--muted); }
-.work__title { font-size: var(--t-small); line-height: 1.3; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.work__title { font-size: var(--t-body); line-height: 1.3; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .work__meta { font-size: var(--t-small); line-height: 1.4; color: var(--muted); }
 .reveal { opacity: 0; transform: translateY(40px); transition: opacity .8s ease, transform .9s cubic-bezier(.2,.7,.2,1); }
 .reveal.is-in { opacity: 1; transform: none; }
