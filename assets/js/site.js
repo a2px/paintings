@@ -14,14 +14,8 @@
   document.title = `${P.artist}, ${P.role}`;
   const newTab = '<span class="visually-hidden"> (opens in a new tab)</span>';
 
-  // The footer's contact column appears only once an email or Instagram is filled in.
-  const contact = [];
-  if (P.email) contact.push(`<p><a href="mailto:${P.email}">${P.email}</a></p>`);
-  if (P.instagram) contact.push(`<p><a href="${P.instagram}" target="_blank" rel="noopener">Instagram${newTab}</a></p>`);
-  if (contact.length) {
-    $("#contactLinks").innerHTML = contact.join("");
-    $("#contactBlock").hidden = false;
-  }
+  // Footer year follows the visitor's clock, so it never needs updating.
+  $("#year").textContent = new Date().getFullYear();
 
   // ---- Selected work grid ----
   const metaFor = (w) => [w.medium, w.size, w.year].filter(Boolean).join(", ");

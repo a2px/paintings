@@ -6,7 +6,7 @@
   --muted: #4d4d4d;
   --gutter: clamp(20px, 4.4vw, 74px);
   /* Type scale: the only sizes on the site. Hero and section titles have their own. */
-  --t-sub: clamp(21px, 1.8vw, 26px);   /* exhibition names, painting title in viewer, footer name */
+  --t-sub: clamp(21px, 1.8vw, 26px);   /* exhibition names, painting title in viewer */
   --t-body: 18px;                       /* reading text */
   --t-ui: 17px;                         /* menu, buttons, small headings (display font) */
   --t-small: 15px;                      /* captions, details */
@@ -86,11 +86,7 @@ strong, b, th { font-weight: 500; }
 .ex__year { font: 200 var(--t-sub)/1.1 var(--display); }
 
 /* Footer */
-.footer { background: var(--accent); border-top: 1px solid var(--ink); padding: 48px 0 56px; }
-.footer__grid { display: grid; grid-template-columns: 1fr 1fr 1.4fr; gap: 30px; font-size: var(--t-small); }
-.footer__h { font-size: var(--t-ui); margin-bottom: 10px; }
-.footer__grid a { display: inline-block; padding: 3px 0; min-height: 24px; text-underline-offset: 3px; }
-.footer__name { font: 500 var(--t-sub)/1.1 var(--display); }
+.footer { background: #fff; border-top: 1px solid var(--ink); padding: 14px 0; font-size: var(--t-small); }
 
 /* Painting viewer */
 .viewer { width: min(1200px, 94vw); max-height: 92vh; padding: 0; border: 1.5px solid var(--ink); background: var(--paper); }
@@ -109,7 +105,6 @@ strong, b, th { font-weight: 500; }
   .works { grid-template-columns: repeat(2, 1fr); }
   .work:nth-child(n) { transform: none; margin-top: 0; }
   .work:nth-child(2n) { margin-top: 40px; }
-  .footer__grid { grid-template-columns: 1fr 1fr; }
   .viewer__fig { grid-template-columns: 1fr; }
   .viewer__fig img { max-height: 60vh; }
   .viewer { overflow-y: auto; }
